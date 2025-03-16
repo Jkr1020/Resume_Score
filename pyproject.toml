@@ -1,0 +1,20 @@
+[project]
+name = "resume-score"
+version = "0.1.0"
+description = "This project is about ATS Score of resume"
+authors = [
+    {name = "Kishore ram J"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)",
+    "pymupdf (>=1.25.4,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
